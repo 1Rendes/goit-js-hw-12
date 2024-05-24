@@ -51,9 +51,9 @@ formInput.addEventListener('submit', event => {
       if (page === totalPage) {
         showMore.classList.add('visually-hidden');
         span.classList.add('visually-hidden');
-        iziToast.error({
+        iziToast.success({
           position: 'topRight',
-          message: "We're sorry, but you've reached the end of search results.",
+          message: "Than's all results for this request.",
         });
         return;
       }
