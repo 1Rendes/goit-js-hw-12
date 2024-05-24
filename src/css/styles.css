@@ -2,6 +2,9 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 :root {
   font-family: 'Montserrat', Inter, Avenir, Helvetica, sans-serif;
@@ -18,7 +21,9 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 .search-image-form {
-  margin: 36px auto 32px;
+  margin: 0 auto;
+  padding-top: 36px;
+  padding-bottom: 32px;
   max-width: 371px;
   display: flex;
   align-items: center;
@@ -110,6 +115,7 @@ a:hover {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 24px;
+  padding-bottom: 32px;
 }
 li {
   border: 1px solid #000000;
