@@ -43,7 +43,7 @@ formInput.addEventListener('submit', event => {
       return imagesData;
     })
     .then(imagesData => {
-      totalPage = Math.ceil(imagesData.totalHits / 200);
+      totalPage = Math.ceil(imagesData.totalHits / 15);
       imagesDiv.append(...renderImages(imagesData));
       gallery.refresh();
       span.classList.add('visually-hidden');
